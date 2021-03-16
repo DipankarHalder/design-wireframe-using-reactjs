@@ -1,0 +1,167 @@
+::-webkit-scrollbar {
+  width: 6px;
+  background: #eeeeee;
+}
+::-webkit-scrollbar-thumb {
+  background: #999999;
+}
+::-webkit-scrollbar-corner {
+  background: #000;
+}
+
+*,
+:after,
+:before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 14px;
+  font-family: $font;
+  font-weight: $regular;
+  background-color: $background;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0px;
+  padding: 0px;
+  font-weight: $regular;
+}
+ul,
+ol,
+li {
+  list-style: none;
+  padding-left: 0px;
+}
+main {
+  display: block;
+}
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+article,
+aside,
+footer,
+header,
+nav,
+section,
+figcaption,
+figure,
+main {
+  display: block;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  height: 0;
+  overflow: visible;
+  box-sizing: border-box;
+}
+pre {
+  font-size: 1em;
+  font-family: monospace, monospace;
+}
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+a,
+img {
+  outline: 0;
+  border: 0px solid transparent;
+  text-decoration: none;
+  &:focus,
+  &:active {
+    outline: 0;
+  }
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 14px;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  &:focus,
+  &:active {
+    outline: 0;
+  }
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  appearance: button;
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted $border;
+}
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+#root {
+  display: flex;
+}
